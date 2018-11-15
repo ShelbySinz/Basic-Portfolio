@@ -63,7 +63,8 @@ h2{
       padding-bottom:150px;
       line-height:40px;
       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
- }
+    margin:20px;
+    }
 
       
 #first {
@@ -71,10 +72,8 @@ h2{
     width:200px;
    position: relative;
     left:80px;
-    z-index: 1;
-    
-
 }
+
 #second {
     height:200px;
     width:200px;
@@ -123,7 +122,11 @@ a {
 }
 
 h1:hover {
-    color:black;
+    background-color:black;
+}
+
+a:active {
+    color:darkmagenta;
 }
 
 #button {
@@ -153,7 +156,6 @@ h1:hover {
     position: relative;
     right:-40px;
     bottom:950px;
-    z-index: 2;
    }
 
    #box2{
