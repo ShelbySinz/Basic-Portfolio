@@ -3,8 +3,8 @@
   .background {
       background-image:url("../images/circuit.png");
       clear:both;
-      overflow: auto;
-
+      /* overflow: auto; */
+       padding-bottom:100px; 
   }
 
 #banner2 {
@@ -113,6 +113,7 @@ h2{
 
 
 #footer {
+    clear:both;
     background-color: darkslategrey;
     height:20px; 
     color:white;
@@ -203,3 +204,25 @@ a:active {
     right:-40px;
     bottom:750px;
  }
+
+ @media screen and (max-width:600px) {
+      
+   .insidebox {
+       width:100%;
+   }
+   
+   h1{
+       margin-left:auto;
+    
+   }
+   #banner2 {
+       margin-left:auto;
+    }
+
+ }
+ 
+@media screen and (max-width:600px){
+    #contact-info{
+        margin-left:0px;
+    }
+}
